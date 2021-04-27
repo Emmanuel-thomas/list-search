@@ -1,0 +1,10 @@
+l= [2,4,5,7,6,534,32,'',7,9,64,3,22234,7,6,4,5,4,532]
+ele =(input("enter the element to search"))
+f = 1
+for i in l:
+    print(i)
+    if i == ele:
+        print("element found")
+        f =0
+if f==1:
+    print("element not found")
